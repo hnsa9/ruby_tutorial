@@ -50,3 +50,4 @@ person_a.number_person()
 # person_b.number_person()
 # person_c.number_person()
 
+puts "This is how the print statement looks like"
