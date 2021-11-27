@@ -52,3 +52,46 @@ person_a.number_person()
 
 puts "This is how the print statement looks like"
 puts "Try again"
+
+
+# Hash
+# hash = {"key" => "value"}
+data = {"Akash" => "Physics", "Ankit" => "Chemistry", "Aman" => "Maths"}   
+puts data["Akash"]   
+puts data["Ankit"]   
+puts data["Aman"]  
+
+# Arrays
+# array = ["array1", "array2", "array3"]
+array_eg = ["array1", "array2", "array3"]
+
+
+# simplify else if statement 
+var = -1;   
+a = (var > 3 ? true : false);    
+puts a 
+
+
+# Switch - case
+
+# Input from user
+print "Enter your day: "  
+
+# store user input in variable
+day = gets.chomp   
+
+# case variablename
+case day   
+when "Tuesday"   
+  puts 'Wear Red or Orange'   
+when "Wednesday"   
+  puts 'Wear Green'   
+when "Thursday"   
+  puts 'Wear Yellow'   
+ when "Friday"   
+  puts 'Wear White'   
+ when "Saturday"   
+  puts 'Wear Black'   
+else   
+  puts "Wear Any color"   
+end  
