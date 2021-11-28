@@ -94,4 +94,4 @@ when "Thursday"
   puts 'Wear Black'   
 else   
   puts "Wear Any color"   
-end  
+end
